@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="강의실 일러스트">
+  <rect width="480" height="300" fill="#EAF0FA"/>
+  <rect x="90" y="30" width="300" height="120" rx="6" fill="#1F4D3A"/>
+  <rect x="84" y="148" width="312" height="8" rx="2" fill="#9DB4DB"/>
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".85"><line x1="120" y1="64" x2="230" y2="64"/><line x1="120" y1="88" x2="300" y2="88"/><line x1="120" y1="112" x2="260" y2="112"/></g>
+  <circle cx="340" cy="78" r="16" fill="none" stroke="#F2B23A" stroke-width="3"/>
+  <rect x="210" y="166" width="60" height="30" rx="4" fill="#0B2A5B"/>
+  <g fill="#E9C893"><rect x="40" y="214" width="110" height="16" rx="3"/><rect x="185" y="214" width="110" height="16" rx="3"/><rect x="330" y="214" width="110" height="16" rx="3"/><rect x="40" y="260" width="110" height="16" rx="3"/><rect x="185" y="260" width="110" height="16" rx="3"/><rect x="330" y="260" width="110" height="16" rx="3"/></g>
+  <g fill="#1D4E9E"><rect x="56" y="230" width="22" height="18" rx="4"/><rect x="112" y="230" width="22" height="18" rx="4"/><rect x="201" y="230" width="22" height="18" rx="4"/><rect x="257" y="230" width="22" height="18" rx="4"/><rect x="346" y="230" width="22" height="18" rx="4"/><rect x="402" y="230" width="22" height="18" rx="4"/><rect x="56" y="276" width="22" height="18" rx="4"/><rect x="112" y="276" width="22" height="18" rx="4"/><rect x="201" y="276" width="22" height="18" rx="4"/><rect x="257" y="276" width="22" height="18" rx="4"/><rect x="346" y="276" width="22" height="18" rx="4"/><rect x="402" y="276" width="22" height="18" rx="4"/></g>
+</svg>

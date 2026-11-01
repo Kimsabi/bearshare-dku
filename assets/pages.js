@@ -164,12 +164,15 @@
         <dt>주말</dt><dd>${X.hoursText(sp.hours.weekend)}</dd>
       </dl>
       <a class="btn ${sp.example ? 'btn-ghost-blue' : 'btn-primary'}" href="reserve.html?cat=${sp.category}" style="align-self:flex-start">이 공간 예약하기</a>`;
+    const photo = sp => sp.img
+      ? `<figure class="photo has-img"><img src="${esc(sp.img)}" alt="${esc(sp.imgAlt || sp.name)}" loading="lazy">${sp.example ? '<figcaption>예시 일러스트</figcaption>' : ''}</figure>`
+      : `<div class="photo">[${esc(sp.name)} 사진]</div>`;
     function draw() {
       const list = BS.spaces.filter(s => filter === 'all' || s.category === filter);
       const feat = list.find(s => !s.example), rest = list.filter(s => s.example);
       $('#space-list').innerHTML = `
-        ${feat ? `<div class="card featured"><div class="photo">[${esc(feat.name)} 사진]</div><div class="body">${spaceBody(feat)}</div></div>` : ''}
-        <div class="grid">${rest.map(s => `<div class="card space-card"><div class="photo">[${esc(s.name)} 사진]</div><div class="body">${spaceBody(s)}</div></div>`).join('')}</div>`;
+        ${feat ? `<div class="card featured">${photo(feat)}<div class="body">${spaceBody(feat)}</div></div>` : ''}
+        <div class="grid">${rest.map(s => `<div class="card space-card">${photo(s)}<div class="body">${spaceBody(s)}</div></div>`).join('')}</div>`;
       $$('#space-filter .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.f === filter)));
     }
     app.innerHTML = `${pageHead('홈 › 공간 대관 › 공간안내', '공간안내', `대관할 수 있는 공간 ${BS.spaces.length}곳이에요. 베어토피아를 뺀 공간 정보는 시범용 예시예요.`)}

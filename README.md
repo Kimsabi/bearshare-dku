@@ -21,8 +21,12 @@
 - 운영 시간, 공간, 이용 기준, 예시 수업, 공지, 이메일 주소: `assets/data.js`
 - 색: `assets/style.css` 맨 위 `:root`
 
-## 올리기 (Firebase Hosting)
-이 폴더에서 `firebase deploy --only hosting --project 프로젝트ID`
+## 올리기 (GitHub Pages + 무료 도메인)
+1. 이 폴더 안의 내용물을 GitHub 저장소에 Upload files로 올리고 Commit changes
+2. Settings → Pages에서 main / (root)로 공개
+3. 내도메인.한국에서 무료 도메인을 만들고 별칭(CNAME)을 `kimsabi.github.io`로 설정
+4. Settings → Pages → Custom domain에 도메인을 적고 Save
+5. 저장소에 생긴 `CNAME` 파일은 지우지 마세요
 
 ## 알아 둘 점
 - 서버 없이 동작하며, 입력한 정보는 각자의 브라우저에만 저장돼요. 다른 사람의 예약은 보이지 않아요.

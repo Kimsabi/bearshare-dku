@@ -22,7 +22,7 @@ BS.config = {
 /* hours: [여는 시각, 닫는 시각] (시 단위). weekday = 월~금, weekend = 토·일 */
 BS.spaces = [
   {
-    id: 'beartopia', name: '베어토피아', category: 'lounge', type: '지역 개방 커뮤니티 공간',
+    id: 'beartopia', img: 'assets/img/beartopia.jpg', imgAlt: '베어토피아 건물 외관 사진', name: '베어토피아', category: 'lounge', type: '지역 개방 커뮤니티 공간',
     capacity: 40, size: '강의실 1개 크기',
     location: '충남 천안시 동남구 단대로 119 (안서동) 승차대기실 101호 2층',
     equipment: ['테이블·의자', '화이트보드', '빔프로젝터 (확인 필요)'],
@@ -31,7 +31,7 @@ BS.spaces = [
     example: false
   },
   {
-    id: 'fl-hall', name: '외국어대학 강당', category: 'hall', type: '강당',
+    id: 'fl-hall', img: 'assets/img/fl-hall.svg', imgAlt: '강당 일러스트', name: '외국어대학 강당', category: 'hall', type: '강당',
     capacity: 200, size: '약 350㎡', location: '천안캠퍼스 외국어대학 1층',
     equipment: ['무대', '음향 시스템', '무선마이크 2개', '빔프로젝터'],
     hours: { weekday: [19, 22], weekend: [9, 22] },
@@ -39,7 +39,7 @@ BS.spaces = [
     example: true
   },
   {
-    id: 'field', name: '대운동장', category: 'sports', type: '운동장',
+    id: 'field', img: 'assets/img/field.svg', imgAlt: '운동장 일러스트', name: '대운동장', category: 'sports', type: '운동장',
     capacity: 100, size: '축구장 · 400m 트랙', location: '천안캠퍼스 대운동장',
     equipment: ['야간 조명', '트랙', '축구 골대', '벤치'],
     hours: { weekday: [19, 22], weekend: [18, 22] },
@@ -47,7 +47,7 @@ BS.spaces = [
     example: true
   },
   {
-    id: 'gym', name: '체육관', category: 'sports', type: '실내 체육관',
+    id: 'gym', img: 'assets/img/gym.svg', imgAlt: '체육관 일러스트', name: '체육관', category: 'sports', type: '실내 체육관',
     capacity: 80, size: '배드민턴 코트 4면 · 농구 코트 1면', location: '천안캠퍼스 체육관 1층',
     equipment: ['배드민턴 네트', '농구 골대', '탈의실'],
     hours: { weekday: [19, 22], weekend: [18, 22] },
@@ -55,15 +55,15 @@ BS.spaces = [
     example: true
   },
   {
-    id: 'hum-201', name: '인문관 201호', category: 'classroom', type: '일반 강의실',
-    capacity: 40, size: '약 70㎡', location: '천안캠퍼스 인문관 2층',
+    id: 'hum-201', img: 'assets/img/hum-201.svg', imgAlt: '강의실 일러스트', name: '인문과학관 201호', category: 'classroom', type: '일반 강의실',
+    capacity: 40, size: '약 70㎡', location: '천안캠퍼스 인문과학관 2층',
     equipment: ['빔프로젝터', '전자교탁', '화이트보드'],
     hours: { weekday: [19, 22], weekend: [9, 22] },
     desc: '강의형 수업, 특강, 설명회에 알맞아요.',
     example: true
   },
   {
-    id: 'eng-305', name: '공학관 305호', category: 'classroom', type: '실습형 강의실',
+    id: 'eng-305', img: 'assets/img/eng-305.svg', imgAlt: '실습실 일러스트', name: '공학관 305호', category: 'classroom', type: '실습형 강의실',
     capacity: 30, size: '약 60㎡', location: '천안캠퍼스 공학관 3층',
     equipment: ['PC 30대', '빔프로젝터', '화이트보드'],
     hours: { weekday: [19, 22], weekend: [9, 22] },
@@ -71,8 +71,8 @@ BS.spaces = [
     example: true
   },
   {
-    id: 'edu-104', name: '사범관 104호 세미나실', category: 'classroom', type: '세미나실',
-    capacity: 16, size: '약 35㎡', location: '천안캠퍼스 사범관 1층',
+    id: 'edu-104', img: 'assets/img/edu-104.svg', imgAlt: '세미나실 일러스트', name: '사회과학관 104호 세미나실', category: 'classroom', type: '세미나실',
+    capacity: 16, size: '약 35㎡', location: '천안캠퍼스 사회과학관 1층',
     equipment: ['회의 테이블', 'TV 모니터', '화이트보드'],
     hours: { weekday: [19, 22], weekend: [9, 22] },
     desc: '소규모 스터디, 회의, 독서 모임에 알맞아요.',

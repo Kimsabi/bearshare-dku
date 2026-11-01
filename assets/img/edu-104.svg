@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="세미나실 일러스트">
+  <rect width="480" height="300" fill="#EAF0FA"/>
+  <rect x="300" y="30" width="140" height="84" rx="6" fill="#0B2A5B"/>
+  <rect x="308" y="38" width="124" height="68" rx="3" fill="#5D86C9"/>
+  <rect x="366" y="114" width="8" height="20" fill="#0B2A5B"/>
+  <rect x="40" y="34" width="70" height="90" rx="4" fill="#FFFFFF" stroke="#9DB4DB" stroke-width="4"/>
+  <path d="M75 34v90M40 79h70" stroke="#9DB4DB" stroke-width="4"/>
+  <ellipse cx="240" cy="216" rx="150" ry="48" fill="#E9C893"/>
+  <ellipse cx="240" cy="210" rx="150" ry="48" fill="#F3D9A8"/>
+  <g fill="#1D4E9E">
+    <rect x="72" y="176" width="36" height="30" rx="8"/><rect x="372" y="176" width="36" height="30" rx="8"/>
+    <rect x="140" y="140" width="36" height="28" rx="8"/><rect x="222" y="134" width="36" height="28" rx="8"/><rect x="304" y="140" width="36" height="28" rx="8"/>
+  </g>
+  <g fill="#0B2A5B">
+    <rect x="130" y="256" width="40" height="30" rx="8"/><rect x="220" y="262" width="40" height="30" rx="8"/><rect x="310" y="256" width="40" height="30" rx="8"/>
+  </g>
+  <g fill="#FFFFFF"><rect x="180" y="196" width="34" height="24" rx="2" transform="rotate(-8 197 208)"/><rect x="262" y="196" width="34" height="24" rx="2" transform="rotate(6 279 208)"/></g>
+  <circle cx="240" cy="214" r="9" fill="#F2B23A"/>
+</svg>

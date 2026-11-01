@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="강당 일러스트">
+  <rect width="480" height="300" fill="#EAF0FA"/>
+  <rect x="60" y="34" width="360" height="150" rx="6" fill="#0B2A5B"/>
+  <path d="M60 34h70c-6 50-6 100 0 150H60z" fill="#1D4E9E"/>
+  <path d="M420 34h-70c6 50 6 100 0 150h70z" fill="#1D4E9E"/>
+  <rect x="140" y="60" width="200" height="96" rx="4" fill="#DCE6F7"/>
+  <rect x="150" y="70" width="180" height="76" rx="2" fill="#FFFFFF"/>
+  <circle cx="240" cy="108" r="18" fill="#F2B23A"/>
+  <rect x="226" y="150" width="28" height="34" rx="3" fill="#C9D4E8"/>
+  <rect x="40" y="184" width="400" height="14" fill="#9DB4DB"/>
+  <g fill="#1D4E9E">
+    <rect x="58" y="214" width="34" height="22" rx="6"/><rect x="100" y="214" width="34" height="22" rx="6"/><rect x="142" y="214" width="34" height="22" rx="6"/><rect x="184" y="214" width="34" height="22" rx="6"/><rect x="262" y="214" width="34" height="22" rx="6"/><rect x="304" y="214" width="34" height="22" rx="6"/><rect x="346" y="214" width="34" height="22" rx="6"/><rect x="388" y="214" width="34" height="22" rx="6"/>
+  </g>
+  <g fill="#0B2A5B">
+    <rect x="42" y="250" width="38" height="26" rx="7"/><rect x="88" y="250" width="38" height="26" rx="7"/><rect x="134" y="250" width="38" height="26" rx="7"/><rect x="180" y="250" width="38" height="26" rx="7"/><rect x="262" y="250" width="38" height="26" rx="7"/><rect x="308" y="250" width="38" height="26" rx="7"/><rect x="354" y="250" width="38" height="26" rx="7"/><rect x="400" y="250" width="38" height="26" rx="7"/>
+  </g>
+</svg>
